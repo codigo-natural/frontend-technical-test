@@ -105,8 +105,8 @@ import { onMounted, onUnmounted, computed } from 'vue'
 import { useUserStore } from '@/store/userStore'
 import LoadingSpinner from '@/components/LoadingSpinner.vue'
 import ErrorMessage from '@/components/ErrorMessage.vue'
-import { defineProps } from 'vue'
 
+// eslint-disable-next-line
 const props = defineProps({
   id: {
     type: [String, Number],
